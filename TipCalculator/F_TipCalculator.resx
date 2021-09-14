@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lbl_Date.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CB_Languages.Items3" xml:space="preserve">
+    <value>русский</value>
+  </data>
+  <data name="&gt;&gt;lbl_Total.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_TipPercent.Text" xml:space="preserve">
+    <value> Percentage Of Tip %</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Lang.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Calculate_BTN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_Total.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 401</value>
+  </data>
+  <data name="&gt;&gt;Clear_BTN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Date.Name" xml:space="preserve">
+    <value>lbl_Date</value>
+  </data>
+  <data name="CB_Languages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 24</value>
+  </data>
+  <data name="DarkMode_BTN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 46</value>
+  </data>
+  <data name="&gt;&gt;CB_Languages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_TotalPerPerson.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 29</value>
+  </data>
+  <data name="&gt;&gt;lbl_Diners.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Total.Text" xml:space="preserve">
+    <value>Total
+Per Person
+</value>
+  </data>
+  <data name="&gt;&gt;lbl_Date.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Lang.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_TTip.Text" xml:space="preserve">
+    <value>Tip
+Per Person
+</value>
+  </data>
+  <data name="lbl_TotalPerPerson.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbl_TotalPerPerson.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lbl_Lang.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rockwell Condensed, 14pt, style=Italic</value>
+  </data>
+  <data name="lbl_Diners.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 29</value>
+  </data>
+  <data name="&gt;&gt;Txt_TipPercentage.Name" xml:space="preserve">
+    <value>Txt_TipPercentage</value>
+  </data>
+  <data name="Txt_TipPercentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 355</value>
+  </data>
+  <data name="lbl_TotalPerPerson.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbl_Date.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 29</value>
+  </data>
+  <data name="Txt_TipPercentage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbl_Date.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Heading.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Txt_BillAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CB_Languages.Items" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="&gt;&gt;lbl_Date.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="NUD_Diners.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;CB_Languages.Name" xml:space="preserve">
+    <value>CB_Languages</value>
+  </data>
+  <data name="&gt;&gt;lbl_BillAmount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NUD_Diners.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lbl_TipPercent.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TipCalculator</value>
+  </data>
+  <data name="lbl_TipPercent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 29</value>
+  </data>
+  <data name="Txt_BillAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 32</value>
+  </data>
+  <data name="Clear_BTN.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 10.2pt, style=Bold</value>
+  </data>
+  <data name="lbl_TotalPerPerson.Location" type="System.Drawing.Point, System.Drawing">
+    <value>918, 414</value>
+  </data>
+  <data name="Txt_BillAmount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semibold, 11pt</value>
+  </data>
+  <data name="Clear_BTN.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;Clear_BTN.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Clear_BTN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 529</value>
+  </data>
+  <data name="Txt_BillAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 253</value>
+  </data>
+  <data name="&gt;&gt;Txt_BillAmount.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="Calculate_BTN.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Date.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;DarkMode_BTN.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lbl_Total.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Txt_TipPercentage.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Txt_BillAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_BillAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lbl_Date.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 39</value>
+  </data>
+  <data name="CB_Languages.Items1" xml:space="preserve">
+    <value>हिंदी</value>
+  </data>
+  <data name="&gt;&gt;lbl_TTip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Calculate_BTN.Name" xml:space="preserve">
+    <value>Calculate_BTN</value>
+  </data>
+  <data name="lbl_TipPerPerson.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl_TipPercent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rockwell Condensed, 13.8pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;lbl_TTip.Name" xml:space="preserve">
+    <value>lbl_TTip</value>
+  </data>
+  <data name="lbl_TTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 61</value>
+  </data>
+  <data name="lbl_TotalPerPerson.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;lbl_CDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Clear_BTN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NUD_Diners.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 22</value>
+  </data>
+  <data name="lbl_TipPercent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_TipPerPerson.Location" type="System.Drawing.Point, System.Drawing">
+    <value>910, 256</value>
+  </data>
+  <data name="&gt;&gt;lbl_CDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_BillAmount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_BillAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_TotalPerPerson.Name" xml:space="preserve">
+    <value>lbl_TotalPerPerson</value>
+  </data>
+  <data name="lbl_Heading.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 67</value>
+  </data>
+  <data name="CB_Languages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 89</value>
+  </data>
+  <data name="lbl_TotalPerPerson.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Txt_TipPercentage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_CDate.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TipCalculator</value>
+  </data>
+  <data name="DarkMode_BTN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>984, 67</value>
+  </data>
+  <data name="&gt;&gt;lbl_Diners.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Clear_BTN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 45</value>
+  </data>
+  <data name="&gt;&gt;lbl_BillAmount.Name" xml:space="preserve">
+    <value>lbl_BillAmount</value>
+  </data>
+  <data name="Calculate_BTN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 529</value>
+  </data>
+  <data name="&gt;&gt;lbl_BillAmount.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lbl_TTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Heading.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Lang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 29</value>
+  </data>
+  <data name="lbl_Date.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;lbl_TipPercent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_CDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rockwell Condensed, 12pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;lbl_TipPercent.Name" xml:space="preserve">
+    <value>lbl_TipPercent</value>
+  </data>
+  <data name="&gt;&gt;Clear_BTN.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NUD_Diners.Name" xml:space="preserve">
+    <value>NUD_Diners</value>
+  </data>
+  <data name="lbl_BillAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 29</value>
+  </data>
+  <data name="Calculate_BTN.Text" xml:space="preserve">
+    <value> Calculate</value>
+  </data>
+  <data name="&gt;&gt;DarkMode_BTN.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_BillAmount.Text" xml:space="preserve">
+    <value> Enter Bill Amount($)</value>
+  </data>
+  <data name="&gt;&gt;lbl_CDate.Name" xml:space="preserve">
+    <value>lbl_CDate</value>
+  </data>
+  <data name="&gt;&gt;lbl_TotalPerPerson.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_TTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rockwell Condensed, 15pt, style=Bold</value>
+  </data>
+  <data name="lbl_TTip.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lbl_Diners.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 440</value>
+  </data>
+  <data name="lbl_CDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="&gt;&gt;lbl_CDate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;NUD_Diners.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_TipPercent.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lbl_Diners.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lbl_TipPerPerson.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Lang.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl_TipPercent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Lang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 84</value>
+  </data>
+  <data name="&gt;&gt;lbl_TipPerPerson.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Txt_TipPercentage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DarkMode_BTN.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbl_BillAmount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rockwell Condensed, 13.8pt, style=Bold, Italic</value>
+  </data>
+  <data name="lbl_CDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Clear_BTN.Name" xml:space="preserve">
+    <value>Clear_BTN</value>
+  </data>
+  <data name="&gt;&gt;Calculate_BTN.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_TotalPerPerson.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CB_Languages.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Txt_BillAmount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_TipPerPerson.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  </data>
+  <data name="lbl_Total.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 67</value>
+  </data>
+  <data name="NUD_Diners.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 448</value>
+  </data>
+  <data name="&gt;&gt;lbl_Heading.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Heading.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Calculate_BTN.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 10.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;NUD_Diners.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Diners.Name" xml:space="preserve">
+    <value>lbl_Diners</value>
+  </data>
+  <data name="lbl_Lang.Text" xml:space="preserve">
+    <value>Languages</value>
+  </data>
+  <data name="&gt;&gt;lbl_Diners.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Total.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rockwell Condensed, 15pt, style=Bold</value>
+  </data>
+  <data name="CB_Languages.Items2" xml:space="preserve">
+    <value>français</value>
+  </data>
+  <data name="&gt;&gt;lbl_TTip.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbl_BillAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 253</value>
+  </data>
+  <data name="lbl_Heading.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 25pt, style=Italic</value>
+  </data>
+  <data name="lbl_Date.Text" xml:space="preserve">
+    <value> Date</value>
+  </data>
+  <data name="lbl_Date.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rockwell Condensed, 14pt, style=Italic</value>
+  </data>
+  <data name="lbl_Total.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lbl_CDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 48</value>
+  </data>
+  <data name="CB_Languages.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;lbl_Heading.Name" xml:space="preserve">
+    <value>lbl_Heading</value>
+  </data>
+  <data name="lbl_TipPerPerson.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Heading.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 51</value>
+  </data>
+  <data name="lbl_TipPerPerson.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 29</value>
+  </data>
+  <data name="&gt;&gt;Txt_BillAmount.Name" xml:space="preserve">
+    <value>Txt_BillAmount</value>
+  </data>
+  <data name="&gt;&gt;lbl_Total.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CB_Languages.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_TipPerPerson.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lbl_Diners.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_Total.Name" xml:space="preserve">
+    <value>lbl_Total</value>
+  </data>
+  <data name="Calculate_BTN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 45</value>
+  </data>
+  <data name="DarkMode_BTN.Text" xml:space="preserve">
+    <value> Dark Mode</value>
+  </data>
+  <data name="lbl_TTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 253</value>
+  </data>
+  <data name="lbl_Diners.Text" xml:space="preserve">
+    <value> No. Of Diners</value>
+  </data>
+  <data name="lbl_Heading.Text" xml:space="preserve">
+    <value> Tip Calculator</value>
+  </data>
+  <data name="lbl_Lang.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Clear_BTN.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;DarkMode_BTN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Lang.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_TipPercent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 349</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1159, 654</value>
+  </data>
+  <data name="lbl_TipPerPerson.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;lbl_Lang.Name" xml:space="preserve">
+    <value>lbl_Lang</value>
+  </data>
+  <data name="Txt_TipPercentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="&gt;&gt;DarkMode_BTN.Name" xml:space="preserve">
+    <value>DarkMode_BTN</value>
+  </data>
+  <data name="lbl_Diners.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rockwell Condensed, 13.8pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;Calculate_BTN.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lbl_Heading.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;CB_Languages.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbl_TipPerPerson.Name" xml:space="preserve">
+    <value>lbl_TipPerPerson</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>fr-FR</value>
+  </metadata>
+</root>
